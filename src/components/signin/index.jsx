@@ -17,26 +17,23 @@ class SignIn extends React.Component {
 	        </div>
 
 
-		       <div className="username">
-            <label for="name">Username</label>
-		        <input  className="usernameInput" id="name" type="text" name="name" value="" minlength="5" maxlength="14" placeholder="5 to 14 Characters" onfocus="this.placeholder=''" onblur="this.placeholder ='5 to 14 Characters'" />
-           </div>
+     <div id="userInfo">
+      <h3>Username:</h3>
+      <input  className="usernameInput" id="name" type="text" name="name" minlength="5" maxlength="14" placeholder="5 to 14 Characters" onfocus="this.placeholder=''" onblur="this.placeholder ='5 to 14 Characters'" />
 
-		       <div className="age">
-            <label for="age">Age</label>
-            <input className="ageInput" id="age" type="text" name="age" value="" maxlength="3" placeholder="Age" onfocus="this.placeholder=''" onblur="this.placeholder ='Age'" />
-           </div>
+      <h3>Age:</h3>
+      <input className="ageInput" id="age" type="text" name="age" maxlength="3" placeholder="Age" onfocus="this.placeholder=''" onblur="this.placeholder ='Age'" />
 
-    <div className="gender">
-    <label for="gender">Gender</label>
-    <input  className="usernameInput" id="gender" type="text" name="gender" value="" minlengh="4" maxlength="6" placeholder="Male or Female" onfocus="this.placeholder=''" onblur="this.placeholder ='Male or Female'" />
-    </div>
+     <h3>Gender:</h3>
+     <input  className="usernameInput" id="gender" type="text" name="gender" minlengh="4" maxlength="6" placeholder="Male or Female" onfocus="this.placeholder=''" onblur="this.placeholder ='Male or Female'" />
 
-    <Link to="/chatroom">
-    <div className="login">
-        <button  className="myButton" id="tv" type="button" name="button" onclick="setUser()">Log In</button>
-		</div>
-    </Link>
+     <br/>
+
+     <Link to="/chatroom">
+         <button  className="myButton" id="tv" type="button" name="button" onclick="setUser()">Join</button>
+     </Link>
+
+     </div>
 
     <div className="footer">
      <ul className="bottom-banner">
