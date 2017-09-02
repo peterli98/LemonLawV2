@@ -29,7 +29,7 @@ class SignIn extends React.Component {
 
      <br/>
 
-     <Link to="/chatroom">
+     <Link className="join" to="/chatroom">
          <button  className="myButton" id="tv" type="button" name="button" onclick="setUser()">Join</button>
      </Link>
 

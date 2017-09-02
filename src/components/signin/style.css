@@ -24,17 +24,6 @@ ul{
 	list-style-type: none;
 }
 
-input{
-	font-size: 150%;
-	font-family: 'VT323', monospace;
-	padding-left: 2%;
-	width: 300px;
-	height: 40px;
-	border: 3px solid #4CAF50;
-  border-radius: 10px;
-}
-
-
 label{
 	font-size: 160%;
 	font-family: 'VT323', monospace;
@@ -94,6 +83,7 @@ label{
 }
 
 #userInfo h3{
+	margin-bottom: 4px;
 	align-self: flex-start;
 	padding-left: 2%;
 	font-size: 150%;
@@ -103,6 +93,15 @@ label{
 #userInfo input[type="text"]{
 	margin-bottom: 5%;
 	max-width: 320px;
+	font-size: 150%;
+	font-family: 'VT323', monospace;
+	border: 3px solid #4CAF50;
+  border-radius: 10px;
+}
+
+#userInfo .join{
+	margin: 5% auto;
+	padding-bottom: 10%;
 }
 
 .myButton{
@@ -114,6 +113,8 @@ label{
 	border-radius: 10px;
 	-webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
+	width: 125px;
+	height: 40px;
 }
 
 .myButton:hover{
