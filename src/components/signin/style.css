@@ -70,7 +70,7 @@ label{
 }
 
 #userInfo{
-	max-width: 320px;
+	max-width: 400px;
 	margin: 5% auto;
 	padding-top: 15px;
 	padding-bottom: 10%;
@@ -83,16 +83,18 @@ label{
 }
 
 #userInfo h3{
+	width: 85%;
 	margin-bottom: 4px;
 	align-self: flex-start;
-	padding-left: 2%;
+	padding-left: 6%;
 	font-size: 150%;
 	font-family: 'VT323', monospace;
 }
 
 #userInfo input[type="text"]{
 	margin-bottom: 5%;
-	max-width: 320px;
+	max-width: 400px;
+	width: 85%;
 	font-size: 150%;
 	font-family: 'VT323', monospace;
 	border: 3px solid #4CAF50;
