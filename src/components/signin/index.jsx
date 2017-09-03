@@ -17,8 +17,6 @@ class SignIn extends React.Component {
 	        </div>
 
 
-
-
      <div id="userInfo">
       <h3>Username:</h3>
       <input  className="usernameInput" id="name" type="text" name="name" minlength="5" maxlength="14" placeholder="5 to 14 Characters" onfocus="this.placeholder=''" onblur="this.placeholder ='5 to 14 Characters'" />
