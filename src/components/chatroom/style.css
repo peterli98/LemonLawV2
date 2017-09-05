@@ -7,7 +7,6 @@
 
 body {
 	background-color: #CBE32D;
-  margin: 0;
 }
 
 img{
@@ -40,61 +39,58 @@ label{
 	font-family: 'VT323', monospace;
 }
 
-/*next page after logging in*/
+.container{
+	margin: 5% auto;
+	display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+	display: flex;
+	justify-content: center;
+	flex-flow: row wrap;
+	max-width: 550px;
+	width: 50%;
+}
 
 #message-container{
 	border: 5px solid #4CAF50;
 	border-radius: 10px;
 	background-color: white;
-	position: absolute;
-  margin: auto;
-  top: 0;
-  bottom: 23%;
-  right: 0;
-  left: 0;
   width: 550px;
   height: 400px;
 	overflow-y: scroll;
 	font-family: 'VT323', monospace;
 	font-size: 130%;
-	padding-top: 0.2%;
-	padding-left: 0.5%;
 }
 
 #message{
 	border: 5px solid #4CAF50;
 	border-radius: 10px;
 	background-color: white;
-	position: absolute;
-  margin: auto;
-  top: 40%;
-  bottom: 0;
-  right: 10.5%;
-  left: 0;
   width: 350px;
   height: 100px;
+	padding: 0;
+	margin-top: 20px;
+	align-self: flex-start;
 }
 
+.button-container{
+	display: flex;
+	justify-content: flex-end;
+	flex-direction: column;
+	margin: 20px auto;
+}
+
+
 #send{
-	position: absolute;
-  margin: auto;
-  top: 33%;
-  bottom: 0;
-  right: 0;
-  left: 25%;
   width: 165px;
-  height: 45px;
+  height: 50px;
+	padding-bottom: 10px;
 }
 
 #disconnect{
-	position: absolute;
-	margin: auto;
-	top: 47%;
-	bottom: 0;
-	right: 0;
-	left: 25%;
 	width: 165px;
-	height: 45px;
+	height: 50px;
 }
 
 #buttonSend{
